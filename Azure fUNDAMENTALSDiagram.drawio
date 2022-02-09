@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T11:42:32.397Z" agent="5.0 (Windows)" etag="_uL4Vzvxpo7cjH4zYhHr" version="16.5.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-02-09T19:13:13.491Z" agent="5.0 (Windows)" etag="SWX1aNqceBfphpKk1xA-" version="16.5.3" type="github" pages="4">
   <diagram id="CP1oOvCJu-jTDNqr88hA" name="Page-1">
     <mxGraphModel dx="458" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -126,6 +126,61 @@
         </mxCell>
         <mxCell id="V6sQ8nyaKz_x2u0IbCjL-2" value="Publish unlimited host pools to accmodate workloads" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="V6sQ8nyaKz_x2u0IbCjL-0">
           <mxGeometry y="90" width="420" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="m5Q_zMfsw-LjS0J2XgtS" name="Page-3">
+    <mxGraphModel dx="458" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="8KIGdjm3KjV-2PbB4Uqg-0" />
+        <mxCell id="8KIGdjm3KjV-2PbB4Uqg-1" parent="8KIGdjm3KjV-2PbB4Uqg-0" />
+        <mxCell id="6D6dAd2-ZN9o1t2-6NH8-0" value="AZURE NETWORKING SERVICES" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=3;" vertex="1" parent="8KIGdjm3KjV-2PbB4Uqg-1">
+          <mxGeometry x="10" y="40" width="380" height="200" as="geometry">
+            <mxRectangle x="30" y="160" width="190" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6D6dAd2-ZN9o1t2-6NH8-1" value="Azure Virtual Network-vnet;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="6D6dAd2-ZN9o1t2-6NH8-0">
+          <mxGeometry y="30" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6D6dAd2-ZN9o1t2-6NH8-2" value="Virtual Pritae Network Gateway-VPN;used to send encrypted traffic&#xa;between an AzureVNet and on-premise location OVER PUBLIC &#xa;INTERNET&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="6D6dAd2-ZN9o1t2-6NH8-0">
+          <mxGeometry y="90" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6D6dAd2-ZN9o1t2-6NH8-3" value="Azure Express Route;extends on-premise networks into Azure&#xa;over a private connection facilitated by connectivity provider&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="6D6dAd2-ZN9o1t2-6NH8-0">
+          <mxGeometry y="150" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6D6dAd2-ZN9o1t2-6NH8-6" value="&#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="6D6dAd2-ZN9o1t2-6NH8-0">
+          <mxGeometry y="180" width="380" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P0qe7AAqZq9BHOA92nPF-0" value="VNet" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=3;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="8KIGdjm3KjV-2PbB4Uqg-1">
+          <mxGeometry x="10" y="290" width="400" height="50" as="geometry">
+            <mxRectangle x="30" y="160" width="190" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cerhG7jDvshwCCnWP45Q" name="Page-4">
+    <mxGraphModel dx="458" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="9IKk3RsqET78Cldw1bvk-0" />
+        <mxCell id="9IKk3RsqET78Cldw1bvk-1" parent="9IKk3RsqET78Cldw1bvk-0" />
+        <mxCell id="GowXDky2krVRN6tkctI0-0" value="azure storage services" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeWidth=3;" vertex="1" parent="9IKk3RsqET78Cldw1bvk-1">
+          <mxGeometry x="20" y="40" width="410" height="170" as="geometry">
+            <mxRectangle x="30" y="160" width="190" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GowXDky2krVRN6tkctI0-1" value="Container storage(blob);unstructured data" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="GowXDky2krVRN6tkctI0-0">
+          <mxGeometry y="30" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GowXDky2krVRN6tkctI0-2" value="Disk Storage;provides disks for virtual machines ,applications&#xa;and other services.&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="GowXDky2krVRN6tkctI0-0">
+          <mxGeometry y="90" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GowXDky2krVRN6tkctI0-3" value="Azure Files;highly available network file shares that can be used by SBM" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="GowXDky2krVRN6tkctI0-0">
+          <mxGeometry y="120" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GowXDky2krVRN6tkctI0-6" value="&#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="GowXDky2krVRN6tkctI0-0">
+          <mxGeometry y="150" width="410" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
